@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html leng=esp>
+
+	<head>
+
+		<link rel="stylesheet" href="mapacolor.css">
+		<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX////w9Prn7vbd5vPT3++3yuWFptRkkctShcRIf8Lf6POvxOJslsxOgsOSr9i0x+P09/uNrNbE0+nr8fjl7fZ+otFejsnL2exGfcFZicb5+/2pwOB7oNFDesBkkcmctttK3ovMAAABYElEQVR4AY2SB5LjIBBFRaYlhEkmyAy6/y3XjV3aPDNfset1LpZvilDGOaPkH4gJqTSAVlKsf0ZtBnYjrZVmB3Nzv7LV77sPayQkrsHq3aZf2B1yuLxdUVVelHho0+DbjeE35mrfvscDMsWWev34qPcV3Qds7z6HDvgxMKQc0JEWbdYZuFX/zOHO2svhgoHteFoWBELSdwyMZsYvYu9xhkqCrbaZgeYxE7E2sIHUc0IfkHFCVSKlsWSDkPidPz+hWoJQNTWeUm1Cd0LBIhd8SV/wt7RBNFXEqyaxMy3TV0NrU47ld0MtvWYob8j2FtmrIa47mdvDRSJkRIQD4VzJdsx1ZwxNurFpaVw0bwOt2dggS5Q+obVKTxZn6gMDZ3HIv54cZHOCKW7AFHchbmpnyyXeodmSiHMklbPB/WKo9WxVd3uetreaT7r8JldOo2utoM2Du98ZYsrDTRQWEX1DPwDASRh1E7orlgAAAABJRU5ErkJggg==" type="image/png">
+		<title>Mapa Escuela de Arte</title>
+
+	</head>
+
+	<body>
+		<main class="map-app">
+
+			<aside class="sidebar" id="sidebar">
+				<button class="close-button" id="close-panel">×</button>
+				<h1 id="panel-title">Información</h1>
+				<p id="panel-description"></p>
+				<span class="mapa"></span>
+		  	</aside>
+
+			 <div class="contenido-previo">
+			    <h2>Información del mapa</h2>
+			    <p>Selecciona una zona del mapa para consultar sus detalles.</p>
+			  </div>
+			  
+			<section class="map-container" > 
+
+				<svg class="plano" id="plantaSA" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.89 595.28">
+				
+				  <g id="Capa_1">
+				    <path class="norma7" d="M84.82,393.39v54.43c0,2.05,1.66,3.71,3.71,3.71h49.93"/>
+				    <path class="norma7" d="M169.51,451.53"/>
+				    <line class="norma7" x1="230.84" y1="451.53" x2="138.46" y2="451.53"/>
+				    <line class="norma7" x1="334.84" y1="451.53" x2="255.19" y2="451.53"/>
+				    <line class="norma5" x1="544.61" y1="451.53" x2="361.49" y2="451.53"/>
+				    <path class="norma7" d="M133.52,393.39h-63.43c-2.05,0-3.71-1.66-3.71-3.71v-79.04c0-2.05,1.66-3.71,3.71-3.71h87.6"/>
+				    <path class="norma9" d="M157.69,306.94h8.12c2.05,0,3.71,1.66,3.71,3.71v79.04c0,2.05-1.66,3.71-3.71,3.71h-6.79"/>
+				    <line class="norma7" x1="555.04" y1="451.53" x2="632.13" y2="451.53"/>
+				    <line class="norma7" x1="544.61" y1="451.53" x2="555.04" y2="451.53"/>
+				    <path class="norma7" d="M658.51,451.53h110.55c3.64,0,6.59-2.95,6.59-6.59v-51.54"/>
+				    <path class="norma7" d="M663.96,196.99v-50.96c0-2.05-1.66-3.71-3.71-3.71h-.97"/>
+				    <path class="norma7" d="M608.12,209.36v180.33c0,2.05-1.66,3.71-3.71,3.71h-33.08"/>
+				    <path class="norma7" d="M611.83,142.33h0c-2.05,0-3.71,1.66-3.71,3.71v36.33"/>
+				    <line class="norma7" x1="571.34" y1="393.39" x2="226.96" y2="393.39"/>
+				    <line class="norma7" x1="203.32" y1="393.39" x2="170.66" y2="393.39"/>
+				    <path class="norma9" d="M102.71,364.11h21.52c2.05,0,3.71-1.66,3.71-3.71v-20.47c0-2.05-1.66-3.71-3.71-3.71h-20.58c-2.05,0-3.71,1.66-3.71,3.71v24.17h2.76Z"/>
+				    <line class="norma9" x1="663.24" y1="317.73" x2="663.96" y2="277.04"/>
+				    <path class="norma9" d="M735.49,393.39"/>
+				    <path class="norma7" d="M735.49,393.39h36.46c2.05,0,3.71-1.66,3.71-3.71v-108.95c0-2.05-1.66-3.71-3.71-3.71h-104.27c-2.05,0-3.71-1.66-3.71-3.71v-50.84"/>
+				    <line class="norma7" x1="622.06" y1="142.79" x2="651.21" y2="142.79"/>
+				    <path class="norma8" d="M694.81,393.39h42.62c1.99,0,3.6-1.61,3.6-3.6v-42.4c0-3.2-3.87-4.81-6.14-2.55l-42.62,42.4c-2.28,2.26-.67,6.15,2.54,6.15Z"/>
+				    <path class="norma8" d="M709.66,310.59h-42.62c-1.99,0-3.6,1.61-3.6,3.6v42.4c0,3.2,3.87,4.81,6.14,2.55l42.62-42.4c2.28-2.26.67-6.15-2.54-6.15Z"/>
+				    <text class="norma1" transform="translate(619.79 524.47) rotate(-45)"><tspan x="0" y="0">AS01</tspan></text>
+				    <text class="norma1" transform="translate(314.65 528.87) rotate(-45)"><tspan x="0" y="0">AS02</tspan></text>
+				    <text class="norma1" transform="translate(216.32 528.87) rotate(-45)"><tspan x="0" y="0">AS03</tspan></text>
+				    <text class="norma1" transform="translate(544.65 241.81) rotate(-45)"><tspan x="0" y="0">AS05</tspan></text>
+				    <text class="norma1" transform="translate(609.12 121.64) rotate(-45)"><tspan x="0" y="0">AS06</tspan></text>
+				    <text class="norma1" transform="translate(664.23 121.64) rotate(-45)"><tspan x="0" y="0">AS07</tspan></text>
+				    <text class="norma1" transform="translate(701.38 223.68) rotate(-45)"><tspan x="0" y="0">WC</tspan></text>
+				    <text class="norma1" transform="translate(216.32 374.72) rotate(-45)"><tspan x="0" y="0">AS04</tspan></text>
+				  </g>
+				  <g id="mapeado-AS01">
+				    <g>
+				      <circle class="norma4" cx="644.6" cy="451.98" r="12.75"/>
+				      <path class="norma3" d="M644.6,465.89c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM644.6,440.39c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS02">
+				    <g>
+				      <circle class="norma4" cx="347.59" cy="451.98" r="12.75"/>
+				      <path class="norma3" d="M347.59,465.89c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM347.59,440.39c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS03">
+				    <g>
+				      <circle class="norma4" cx="242.47" cy="451.98" r="12.75"/>
+				      <path class="norma3" d="M242.48,465.89c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM242.48,440.39c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS04">
+				    <g>
+				      <circle class="norma4" cx="214.25" cy="393.85" r="12.75"/>
+				      <path class="norma3" d="M214.25,407.75c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM214.25,382.25c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS05">
+				    <g>
+				      <circle class="norma4" cx="608.16" cy="195.57" r="12.75"/>
+				      <path class="norma3" d="M608.16,209.48c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM608.16,183.98c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.59,11.6,11.59,11.6-5.2,11.6-11.59-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS06">
+				    <g>
+				      <circle class="norma4" cx="609.31" cy="142.79" r="12.75"/>
+				      <path class="norma3" d="M609.31,156.69c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM609.31,131.19c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-AS07">
+				    <g>
+				      <circle class="norma4" cx="663.96" cy="143.14" r="12.75"/>
+				      <path class="norma3" d="M663.96,157.05c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM663.96,131.55c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-WC">
+				    <g>
+				      <circle class="norma4" cx="664" cy="209.74" r="12.75"/>
+				      <path class="norma3" d="M664,223.65c-7.67,0-13.9-6.24-13.9-13.9s6.24-13.9,13.9-13.9,13.9,6.24,13.9,13.9-6.24,13.9-13.9,13.9ZM664,198.15c-6.39,0-11.6,5.2-11.6,11.6s5.2,11.6,11.6,11.6,11.6-5.2,11.6-11.6-5.2-11.6-11.6-11.6Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A">
+				    <rect class="norma3" x="43.23" y="39.29" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma2" transform="translate(58.06 69.59)"><tspan x="0" y="0">A</tspan></text>
+				  </g>
+				  <g id="PISO0A">
+				    <rect id="ir-piso0a" class="norma7" x="188.54" y="39.29" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma1" transform="translate(203.37 69.59)"><tspan x="0" y="0">0</tspan></text>
+				  </g>
+				  <g id="PISO1A">
+				    <rect class="norma7" x="250.09" y="39.29" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma1" transform="translate(268.87 69.59)"><tspan x="0" y="0">1</tspan></text>
+				  </g>
+				  <g id="PISO2A">
+				    <rect class="norma7" x="311.65" y="39.29" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma1" transform="translate(328.21 69.59)"><tspan x="0" y="0">2</tspan></text>
+				  </g>
+				  <g id="PISOSA">
+				    <rect class="norma3" x="126.99" y="39.29" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma2" transform="translate(143.29 69.59)"><tspan x="0" y="0">S</tspan></text>
+				  </g>
+				  <g id="N">
+				    <rect class="norma6" x="43.23" y="104.91" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma0" transform="translate(58.06 135.21)"><tspan x="0" y="0">N</tspan></text>
+				  </g>
+				  <g id="PISO0N">
+				    <rect class="norma6" x="188.54" y="104.91" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma0" transform="translate(203.37 135.21)"><tspan x="0" y="0">0</tspan></text>
+				  </g>
+				  <g id="PISO1N">
+				    <rect class="norma6" x="250.09" y="104.91" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma0" transform="translate(268.87 135.21)"><tspan x="0" y="0">1</tspan></text>
+				  </g>
+				  <g id="PISO2N">
+				    <rect class="norma6" x="311.65" y="104.91" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma0" transform="translate(328.21 135.21)"><tspan x="0" y="0">2</tspan></text>
+				  </g>
+				  <g id="PISOSN">
+				    <rect class="norma6" x="126.99" y="104.91" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="norma0" transform="translate(143.29 135.21)"><tspan x="0" y="0">S</tspan></text>
+				  </g>
+				</svg>
+
+
+				<svg class="plano activo" id="planta0A" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820.67 454.01">
+					<defs>
+						<linearGradient id="degradadoHover" x1="0%" y1="0%" x2="100%" y2="0%">
+						<stop offset="0%" stop-color="#ADD399" />
+						<stop offset="100%" stop-color="#F7A539" />
+						</linearGradient>
+					</defs>
+				  <g id="Capa_1" data-name="Capa 1">
+				    <g id="Page-1">
+				      <g id="Dribbble-Light-Preview">
+				        <g id="icons">
+				          <g id="arrow_left-_356_" data-name="arrow_left-[#356]">
+				            <path class="cls-17" d="M548.33,428.08l-7.71,7.71c-.37.37-.31.91.07,1.28l.02.02c.38.38.92.47,1.3.08l5.92-5.92c.31-.31.84-.09.84.35l-.02,21.45c0,.53.43.97.97.97h0c.54,0,.97-.43.97-.97l-.02-21.46c0-.44.53-.65.83-.35l5.86,5.86c.38.38.99.37,1.37,0l.02-.02c.38-.38.38-.98,0-1.36l-7.63-7.63c-.77-.77-2-.77-2.77,0h0Z"/>
+				          </g>
+				        </g>
+				      </g>
+				    </g>
+				    <g id="Page-1-2" data-name="Page-1">
+				      <g id="Dribbble-Light-Preview-2" data-name="Dribbble-Light-Preview">
+				        <g id="icons-2" data-name="icons">
+				          <g id="arrow_left-_356_-2" data-name="arrow_left-[#356]">
+				            <path class="cls-17" d="M96.56,241.34l7.71-7.71c.37-.37.31-.91-.07-1.28l-.02-.02c-.38-.38-.92-.47-1.3-.08l-5.92,5.92c-.31.31-.84.09-.84-.35l.02-21.45c0-.53-.43-.97-.97-.97h0c-.54,0-.97.43-.97.97l.02,21.46c0,.44-.53.65-.83.35l-5.86-5.86c-.38-.38-.99-.37-1.37,0l-.02.02c-.38.38-.38.98,0,1.36l7.63,7.63c.77.77,2,.77,2.77,0h0Z"/>
+				          </g>
+				        </g>
+				      </g>
+				    </g>
+				    <path class="cls-9" d="M42.6,304.96v49.49c0,1.86,1.51,3.37,3.37,3.37h45.4"/>
+				    <line class="cls-9" x1="467.4" y1="357.82" x2="116.58" y2="357.82"/>
+				    <path class="cls-9" d="M86.87,304.96H29.2c-1.86,0-3.37-1.51-3.37-3.37v-71.87c0-1.86,1.51-3.37,3.37-3.37h50.29"/>
+				    <path class="cls-8" d="M108.85,226.35h7.38c1.86,0,3.37,1.51,3.37,3.37v71.87c0,1.86-1.51,3.37-3.37,3.37h-6.18"/>
+				    <line class="cls-9" x1="484.96" y1="357.82" x2="534.05" y2="357.82"/>
+				    <line class="cls-9" x1="565.34" y1="357.82" x2="660.64" y2="357.82"/>
+				    <path class="cls-9" d="M684.76,357.82h48.29c1.86,0,3.37-1.51,3.37-3.37v-6.58"/>
+				    <path class="cls-9" d="M736.43,330.06v-5.29c0-1.86-1.51-3.37-3.37-3.37h-10.4"/>
+				    <path class="cls-9" d="M702.77,322.36h-9.18c-1.86,0-3.37-1.51-3.37-3.37v-8.18c0-1.86-1.51-3.37-3.37-3.37h-12.75c-1.86,0-3.37-1.51-3.37-3.37v-101.55c0-1.86-1.51-3.37-3.37-3.37h-94.81c-1.86,0-3.37-1.51-3.37-3.37v-48.46"/>
+				    <path class="cls-9" d="M569.19,123.1v-43.06c0-1.86-1.51-3.37-3.37-3.37h-10.4"/>
+				    <path class="cls-9" d="M531.2,76.67h-10.59c-1.86,0-2.2,1.51-2.2,3.37v221.54c0,1.86-1.51,3.37-3.37,3.37h-30.08"/>
+				    <line class="cls-9" x1="459.78" y1="304.96" x2="181.52" y2="304.96"/>
+				    <line class="cls-9" x1="164.76" y1="304.96" x2="120.64" y2="304.96"/>
+				    <path class="cls-8" d="M534.05,449.12h-16.02c-1.86,0-3.37-1.51-3.37-3.37v-86.87"/>
+				    <path class="cls-8" d="M565.34,449.12h16.94c1.86,0,3.37-1.51,3.37-3.37v-86.87"/>
+				    <path class="cls-5" d="M597.2,304.96h38.75c1.81,0,3.27-1.47,3.27-3.27v-38.55c0-2.91-3.52-4.37-5.58-2.32l-38.75,38.55c-2.07,2.06-.61,5.59,2.31,5.59Z"/>
+				    <path class="cls-5" d="M611.21,228.66h-38.75c-1.81,0-3.27,1.47-3.27,3.27v38.55c0,2.91,3.52,4.37,5.58,2.32l38.75-38.55c2.07-2.06.61-5.59-2.31-5.59Z"/>
+				    <path class="cls-8" d="M60.11,278.33h19.57c1.86,0,3.37-1.51,3.37-3.37v-18.61c0-1.86-1.51-3.37-3.37-3.37h-18.71c-1.86,0-3.37,1.51-3.37,3.37v21.98h2.51Z"/>
+				    <text class="cls-2" transform="translate(450.53 422.05) rotate(-45)"><tspan class="cls-18" x="0" y="0">A00</tspan><tspan class="cls-20" x="41.08" y="0">1</tspan></text>
+				    <text class="cls-2" transform="translate(73.39 422.05) rotate(-45)"><tspan class="cls-18" x="0" y="0">A0</tspan><tspan class="cls-19" x="27.52" y="0">0</tspan><tspan class="cls-15" x="40.78" y="0">2</tspan></text>
+				    <text class="cls-2" transform="translate(543.4 47.63) rotate(-45)"><tspan class="cls-21" x="0" y="0">A0</tspan><tspan class="cls-12" x="27.52" y="0">0</tspan><tspan class="cls-10" x="40.69" y="0">7</tspan></text>
+				    <text class="cls-2" transform="translate(602.58 147.37) rotate(-45)"><tspan class="cls-16" x="0" y="0">W</tspan><tspan x="20.13" y="0">C</tspan></text>
+				    <text class="cls-2" transform="translate(175.87 278.37) rotate(-45)"><tspan class="cls-18" x="0" y="0">A00</tspan><tspan x="41.08" y="0">5</tspan></text>
+				    <text class="cls-2" transform="translate(467.9 278.37) rotate(-45)"><tspan class="cls-21" x="0" y="0">A00</tspan><tspan x="41.08" y="0">6</tspan></text>
+				    <text class="cls-2" transform="translate(710.63 293.98) rotate(-45)"><tspan class="cls-21" x="0" y="0">A00</tspan><tspan class="cls-14" x="41.08" y="0">8</tspan></text>
+				    <text class="cls-2" transform="translate(762.85 346.84) rotate(-45)"><tspan class="cls-21" x="0" y="0">A00</tspan><tspan x="41.08" y="0">9</tspan></text>
+				    <text class="cls-2" transform="translate(649.65 422.05) rotate(-45)"><tspan class="cls-21" x="0" y="0">A01</tspan><tspan class="cls-20" x="35.03" y="0">0</tspan></text>
+				  </g>
+				  <g id="mapeado-A001">
+				    <g>
+				      <ellipse id="mapeado-A001" class="cls-13" cx="478.83" cy="357.82" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M478.83,371.03c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM478.83,346.8c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A002">
+				    <g>
+				      <ellipse  class="cls-13" cx="104.52" cy="357.82" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M104.52,371.03c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM104.52,346.8c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A005">
+				    <g>
+				      <ellipse id="mapeado-A005" class="cls-13" cx="175.83" cy="304.96" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M175.83,318.17c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM175.83,293.94c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A006">
+				    <g>
+				      <ellipse id="mapeado-A006" class="cls-13" cx="472.93" cy="304.96" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M472.93,318.17c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.15,5.93,13.15,13.21-5.9,13.21-13.15,13.21ZM472.93,293.94c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A007">
+				    <g>
+				      <ellipse id="mapeado-A007" class="cls-13" cx="543.36" cy="76.68" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M543.36,89.89c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM543.36,65.66c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-WC">
+				    <g>
+				      <ellipse id="mapeado-WC" class="cls-13" cx="569.19" cy="135.22" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M569.19,148.43c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.15,5.93,13.15,13.21-5.9,13.21-13.15,13.21ZM569.19,124.2c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A008">
+				    <g>
+				      <ellipse id="mapeado-A008" class="cls-13" cx="710.6" cy="321.4" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M710.6,334.61c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM710.6,310.38c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A009">
+				    <g>
+				      <ellipse id="mapeado-A009" class="cls-13" cx="736.43" cy="339.31" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M736.43,352.52c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM736.43,328.29c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="mapeado-A010">
+				    <g>
+				      <ellipse id="mapeado-A010" class="cls-13" cx="672.7" cy="357.82" rx="12.06" ry="12.11"/>
+				      <path class="cls-11" d="M672.7,371.03c-7.25,0-13.16-5.93-13.16-13.21s5.9-13.21,13.16-13.21,13.16,5.93,13.16,13.21-5.9,13.21-13.16,13.21ZM672.7,346.8c-6.05,0-10.97,4.94-10.97,11.02s4.92,11.02,10.97,11.02,10.97-4.94,10.97-11.02-4.92-11.02-10.97-11.02Z"/>
+				    </g>
+				  </g>
+				  <g id="A">
+				    <rect class="cls-11" x="1.15" y="13.15" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-4" transform="translate(15.99 43.45)"><tspan x="0" y="0">A</tspan></text>
+				  </g>
+				  <g id="PISO0A">
+				    <rect class="cls-11" x="146.47" y="13.15" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-4" transform="translate(161.3 43.45)"><tspan x="0" y="0">0</tspan></text>
+				  </g>
+				  <g id="PISO1A">
+				    <rect class="cls-7" x="208.02" y="13.15" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-3" transform="translate(226.8 43.45)"><tspan x="0" y="0">1</tspan></text>
+				  </g>
+				  <g id="PISO2A">
+				    <rect class="cls-7" x="269.57" y="13.15" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-3" transform="translate(286.14 43.45)"><tspan x="0" y="0">2</tspan></text>
+				    <rect class="cls-6" x="84.91" y="78.77" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-1" transform="translate(101.22 109.07)"><tspan x="0" y="0">S</tspan></text>
+				  </g>
+				  <g id="PISOSA">
+				    <rect id="ir-pisosa" class="cls-7" x="84.91" y="13.15" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-3" transform="translate(101.22 43.45)"><tspan x="0" y="0">S</tspan></text>
+				  </g>
+				  <g id="N">
+				    <rect class="cls-6" x="1.15" y="78.77" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-1" transform="translate(15.99 109.07)"><tspan x="0" y="0">N</tspan></text>
+				  </g>
+				  <g id="PISO0N">
+				    <rect class="cls-6" x="146.47" y="78.77" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-1" transform="translate(161.3 109.07)"><tspan x="0" y="0">0</tspan></text>
+				  </g>
+				  <g id="PISO1N">
+				    <rect class="cls-6" x="208.02" y="78.77" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-1" transform="translate(226.8 109.07)"><tspan x="0" y="0">1</tspan></text>
+				  </g>
+				  <g id="PISO2N">
+				    <rect class="cls-6" x="269.57" y="78.77" width="46.32" height="46.32" rx="3.1" ry="3.1"/>
+				    <text class="cls-1" transform="translate(286.14 109.07)"><tspan x="0" y="0">2</tspan></text>
+				  </g>
+				</svg>
+			</section>
+		</main>
+		<script src="mapaordenes.js"></script>
+	</body>
+
+</html>
