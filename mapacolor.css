@@ -261,3 +261,10 @@
 .plano.activo{
   display: block;
 }
+
+#header {
+width: 80%;      
+border-radius: 6px;   
+margin: 12px 0;   
+}
+
